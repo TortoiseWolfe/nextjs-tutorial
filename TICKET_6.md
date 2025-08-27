@@ -1,22 +1,20 @@
-# Ticket 6: Build a Full-Stack Issue Tracker
+# Ticket 6: [Build a Full-Stack App with Next.js, Tailwind, Radix UI, and Prisma](https://youtu.be/J9sfR6HN6BY "Production-ready Issue Tracker application")
 
-## Video Information
-**Title**: Build a Full-Stack App with Next.js, Tailwind, Radix UI, and Prisma  
-**URL**: https://youtu.be/J9sfR6HN6BY  
-**Focus**: Production-ready Issue Tracker application
+## Video Learning Curriculum
 
-## Repository Setup
+> **Note**: This builds on Ticket 5 knowledge - complete that first
+
+### Project Setup Options
 ```bash
-# Option 1: Fork from Ticket 5
-git clone [your-forked-repo]
-cd issue-tracker
+# Option 1: Continue from Ticket 5 project
+cd next-app
 
-# Option 2: Fresh start with tools included
+# Option 2: Fresh start with all tools
 npx create-next-app@latest issue-tracker --typescript --tailwind --app
 cd issue-tracker
 ```
 
-## Video Project Roadmap
+### Video Project Roadmap
 Building a complete Issue Tracking System with:
 - User authentication
 - Issue CRUD operations  
@@ -25,33 +23,68 @@ Building a complete Issue Tracking System with:
 - Modern UI with Radix components
 - Production database with Prisma
 
-## Video Curriculum Breakdown
+## Video Learning Curriculum
 
-### Part 1: Project Foundation
+### Section 1: Introduction & Setup [0:00:00 - 0:10:59]
+- [ ] Introduction [0:00:00]
+- [ ] Prerequisites [0:02:06]
+- [ ] Source Code [0:02:55]
+- [ ] How to Take This Course [0:03:34]
+- [ ] Project Roadmap [0:04:33]
+- [ ] Setting Up the Development Environment [0:06:49]
+- [ ] Creating a New Project [0:08:07]
 
-#### Setting Up Development Environment
+📝 **Follow Along at [0:08:07]:**
 ```bash
-# Install core dependencies shown in video
-npm install @radix-ui/themes @radix-ui/react-icons
+npx create-next-app@latest issue-tracker --typescript --tailwind --app
+cd issue-tracker
+```
+
+### Section 2: Building the NavBar [0:10:59 - 0:26:10]
+- [ ] Building the NavBar [0:10:59]
+- [ ] Styling the Active Link [0:19:52]
+
+### Section 3: Database Setup [0:26:10 - 0:36:36]
+- [ ] Setting Up MySQL [0:26:10]
+- [ ] Setting Up Prisma [0:28:09]
+- [ ] Creating the Issue Model [0:29:55]
+
+📝 **Follow Along at [0:28:09]:**
+```bash
 npm install prisma @prisma/client
+npx prisma init
+```
+
+### Section 4: Building the Issues Feature [0:36:36 - 1:32:22]
+- [ ] Building an API [0:36:36]
+- [ ] Setting Up Radix UI [0:43:31]
+
+📝 **Follow Along at [0:43:31]:**
+```bash
+npm install @radix-ui/themes @radix-ui/react-icons
+```
+
+- [ ] Building the New Issue Page [0:46:04]
+- [ ] Customizing Radix UI Theme [0:51:02]
+- [ ] Adding a Markdown Editor [0:56:56]
+
+📝 **Follow Along at [0:56:56]:**
+```bash
 npm install react-markdown @uiw/react-md-editor
 ```
 
-#### Building the NavBar
-- Logo and branding
-- Navigation links
-- Active link styling with Tailwind
-- Responsive design
+- [ ] Handling Form Submission [0:58:52]
+- [ ] Handling Errors [1:07:36]
+- [ ] Implementing Client-Side Validation [1:14:26]
+- [ ] Extracting the ErrorMessage Component [1:20:40]
+- [ ] Adding a Spinner [1:24:03]
+- [ ] Discussion: Code Organization [1:28:24]
 
-### Part 2: Creating Issues Module (65 min)
+> **Note**: Ultimate Next.js Course mentioned at [0:55:55] and [1:32:22]
 
-#### Database Setup
-```bash
-# MySQL setup
-# Create database for development
-```
+## Code Examples from Video
 
-#### Prisma Configuration
+### Prisma Configuration
 ```prisma
 // prisma/schema.prisma
 generator client {
@@ -79,7 +112,7 @@ enum Status {
 }
 ```
 
-#### Building the API
+### Building the API
 ```tsx
 // app/api/issues/route.ts
 import { NextRequest, NextResponse } from 'next/server';
@@ -102,43 +135,6 @@ export async function POST(request: NextRequest) {
 }
 ```
 
-#### Radix UI Integration
-- Setting up Radix Theme
-- Customizing theme colors
-- Building form with Radix components
-- Text fields and text areas
-- Buttons and feedback
-
-#### New Issue Page Features
-- Markdown editor integration
-- Client-side validation with Zod
-- Error handling and display
-- Loading spinner
-- Toast notifications
-
-### Part 3: Viewing Issues Module
-
-#### Issue List Page
-- Fetching all issues
-- Table layout with Radix
-- Status badges
-- Sorting functionality
-- Links to detail pages
-
-#### Issue Detail Page
-- Displaying markdown content
-- Issue metadata
-- Edit and delete buttons
-- Confirmation dialogs
-
-### Part 4: Advanced Features
-
-#### Code Organization Discussion
-- Component structure
-- Shared components
-- Utility functions
-- Type definitions
-- API route patterns
 
 ## Key Tools & Their Purposes
 
