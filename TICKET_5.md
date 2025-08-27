@@ -43,25 +43,27 @@ npm run dev
 ## Video Curriculum Breakdown
 
 ### Section 1: Introduction & Prerequisites [0:00:00 - 0:03:16]
-- Course Intro [0:00:00]
-- Prerequisites (React knowledge) [0:02:12]
+- [ ] Course Intro [0:00:00]
+- [ ] Prerequisites (React knowledge) [0:02:12]
 
 ### Section 2: Next.js Fundamentals [0:03:16 - 0:13:10]
-- Next.js Fundamentals Overview [0:03:16]
-- What is Next.js? [0:03:54]
-- Setting Up the Development Environment [0:06:34]
-- Creating Your First Next.js Project [0:07:59]
-- Project Structure [0:10:21]
+- [ ] Next.js Fundamentals Overview [0:03:16]
+- [ ] What is Next.js? [0:03:54]
+- [ ] Setting Up the Development Environment [0:06:34]
+- [ ] Creating Your First Next.js Project [0:07:59]
+- [ ] Project Structure [0:10:21]
 
 ### Section 3: Routing & Navigation [0:13:10 - 0:18:25]
-- Routing and Navigation basics [0:13:10]
-- File-based routing system
-- Creating pages in app directory
-- Dynamic routes
-- Link component for navigation
+- [ ] Routing and Navigation basics [0:13:10]
+- [ ] File-based routing system
+- [ ] Creating pages in app directory
+- [ ] Dynamic routes
+- [ ] Link component for navigation
 
 ### Section 4: Components Architecture [0:18:25 - 0:27:19]
-- Client and Server Components [0:18:25]
+- [ ] Client and Server Components [0:18:25]
+- [ ] When to use Server Components
+- [ ] When to use Client Components
 ```tsx
 // Server Component (Default - No "use client")
 export default async function ServerComponent() {
@@ -80,16 +82,16 @@ export default function ClientComponent() {
 ```
 
 ### Section 5: Data Fetching, Caching & Rendering [0:27:19 - 0:39:56]
-- Data Fetching [0:27:19]
-- Caching [0:33:23]
-- Static and Dynamic Rendering [0:35:48]
+- [ ] Data Fetching [0:27:19]
+- [ ] Caching [0:33:23]
+- [ ] Static and Dynamic Rendering [0:35:48]
 
 ### Section 6: Styling Next.js Applications [0:39:56 - 0:54:56]
-- Styling Overview [0:39:56]
-- Global Styles [0:40:16]
-- CSS Modules [0:42:50]
-- Tailwind CSS [0:47:17]
-- DaisyUI [0:54:56]
+- [ ] Styling Overview [0:39:56]
+- [ ] Global Styles [0:40:16]
+- [ ] CSS Modules [0:42:50]
+- [ ] Tailwind CSS [0:47:17]
+- [ ] DaisyUI [0:54:56]
 
 ## Key Takeaways from Mosh
 
@@ -131,55 +133,6 @@ export default function ClientComponent() {
 - [ ] Understand caching basics
 - [ ] Have tried all styling approaches
 - [ ] TypeScript types are working
-
-## Video Progress Tracking
-
-### Introduction (15 min)
-- [ ] Prerequisites
-- [ ] What is Next.js?
-- [ ] Course Overview
-
-### Getting Started (20 min)
-- [ ] Installation
-- [ ] Creating Next Project
-- [ ] Project Files
-- [ ] Dev Environment
-
-### Routing & Navigation (30 min)
-- [ ] Creating Routes
-- [ ] Navigation
-- [ ] Dynamic Routes
-- [ ] Catch-all Routes
-
-### Building UIs (25 min)
-- [ ] Defining Routes
-- [ ] Pages
-- [ ] Layouts
-- [ ] Links and Navigation
-
-### Client and Server Components (20 min)
-- [ ] Client vs Server Rendering
-- [ ] Server Components
-- [ ] Client Components
-- [ ] When to Use Which
-
-### Data Fetching (25 min)
-- [ ] Fetching on the Server
-- [ ] Static Rendering
-- [ ] Dynamic Rendering
-- [ ] Incremental Static Regeneration
-
-### Caching (15 min)
-- [ ] Data Cache
-- [ ] Full Route Cache
-- [ ] Router Cache
-- [ ] Revalidation
-
-### Styling (20 min)
-- [ ] Global Styles
-- [ ] CSS Modules
-- [ ] Tailwind CSS
-- [ ] DaisyUI
 
 ## Learning Notes & Insights
 *Document observations and "why" explanations as you watch*
