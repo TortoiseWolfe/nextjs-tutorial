@@ -7,28 +7,33 @@
 
 ## Project Setup
 
-### Step 1: Create the Next.js Project
+### Step 1: Create the Next.js Project [0:08:27]
 ```bash
-npx create-next-app@latest nextjs-tutorial --typescript --tailwind --app
+npx create-next-app@13.4
 ```
+
+When prompted with "What is your project named?", enter:
+```
+next-app
+```
+
+When prompted, select:
+- ✔ Would you like to use TypeScript? → **Yes**
+- ✔ Would you like to use ESLint? → **Yes**
+- ✔ Would you like to use Tailwind CSS? → **No** (he adds it later)
+- ✔ Would you like to use `src/` directory? → **No**
+- ✔ Would you like to use App Router? → **Yes**
+- ✔ Would you like to customize the default import alias? → **No**
 
 ### Step 2: Navigate to the Project
 ```bash
-cd nextjs-tutorial
+cd next-app
 ```
 
 ### Step 3: Start the Development Server
 ```bash
 npm run dev
 ```
-
-When prompted, select:
-- ✔ Would you like to use TypeScript? → **Yes**
-- ✔ Would you like to use ESLint? → **Yes**
-- ✔ Would you like to use Tailwind CSS? → **Yes**
-- ✔ Would you like to use `src/` directory? → **No**
-- ✔ Would you like to use App Router? → **Yes**
-- ✔ Would you like to customize the default import alias? → **No**
 
 ## Video Curriculum Breakdown
 
