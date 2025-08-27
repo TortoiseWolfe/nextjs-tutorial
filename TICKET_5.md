@@ -5,52 +5,45 @@
 **URL**: https://youtu.be/ZVnjOPwW4ZA  
 **Focus**: Fundamentals and core concepts of Next.js 13+
 
-## Project Setup
+## Video Learning Curriculum
 
-### Step 1: Create the Next.js Project [0:08:27]
-```bash
-npx create-next-app@13.4
-```
-
-When prompted with "What is your project named?", enter:
-```
-next-app
-```
-
-When prompted, select:
-- ✔ Would you like to use TypeScript? → **Yes**
-- ✔ Would you like to use ESLint? → **Yes**
-- ✔ Would you like to use Tailwind CSS? → **No** (he adds it later)
-- ✔ Would you like to use `src/` directory? → **No**
-- ✔ Would you like to use App Router? → **Yes**
-- ✔ Would you like to customize the default import alias? → **No**
-
-### Why These Setup Choices?
-- **No `src/` directory**: Keeps file structure flat and simple for teaching. Reduces nesting, makes file paths shorter in explanations, and follows many Next.js examples. Perfect for small learning projects.
-- **No Tailwind initially**: Teaches styling progressively - starts with CSS Modules, then adds Tailwind later to show the evolution
-- **TypeScript Yes**: Industry standard, catches errors early, better learning experience
-
-### Step 2: Navigate to the Project
-```bash
-cd next-app
-```
-
-### Step 3: Start the Development Server
-```bash
-npm run dev
-```
-
-## Video Curriculum Breakdown
+> **Note**: Follow along with the video - commands appear exactly when Mosh demonstrates them
 
 ### Section 1: Introduction & Prerequisites [0:00:00 - 0:03:16]
 - [ ] Course Intro [0:00:00]
 - [ ] Prerequisites (React knowledge) [0:02:12]
 
-### Section 2: Next.js Fundamentals [0:03:16 - 0:13:10]
+### Section 2: Next.js Fundamentals & Setup [0:03:16 - 0:13:10]
 - [ ] Next.js Fundamentals Overview [0:03:16]
 - [ ] What is Next.js? [0:03:54]
 - [ ] Setting Up the Development Environment [0:06:34]
 - [ ] Creating Your First Next.js Project [0:07:59]
+
+#### 📝 Follow Along at [0:08:27]
+**Create the project:**
+```bash
+npx create-next-app@13.4
+```
+
+**When prompted:**
+- Project name: `next-app`
+- TypeScript? → **Yes**
+- ESLint? → **Yes**
+- Tailwind CSS? → **No** (added later at 0:47:17)
+- `src/` directory? → **No** (keeps structure simple)
+- App Router? → **Yes**
+- Customize import alias? → **No**
+
+**Navigate to project:**
+```bash
+cd next-app
+```
+
+**Start development server:**
+```bash
+npm run dev
+```
+
 - [ ] Project Structure [0:10:21]
 
 ### Section 3: Routing & Navigation [0:13:10 - 0:18:25]
@@ -137,8 +130,10 @@ export default function ClientComponent() {
 ## Learning Notes & Insights
 *Document observations and "why" explanations as you watch*
 
-### Teaching Choices Explained
+### Setup & Teaching Choices Explained
 - [x] **Why no src directory**: Keeps tutorial simple, reduces file nesting, shorter paths in demonstrations
+- [x] **Why no Tailwind initially**: Teaches styling progressively - CSS Modules first, then Tailwind to show evolution
+- [x] **Why TypeScript**: Industry standard, catches errors early, better learning experience
 - [ ] **When to use server vs client components**: (Document as you learn)
 - [ ] **Performance implications**: (Note differences as demonstrated)
 - [ ] **File organization patterns**: (Observe how Mosh structures the app)
