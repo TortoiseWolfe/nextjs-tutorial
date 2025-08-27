@@ -1,9 +1,4 @@
-# Ticket 5: Next.js Tutorial for Beginners
-
-## Video Information
-**Title**: Next.js Tutorial for Beginners - Nextjs 13 (App Router) with TypeScript  
-**URL**: https://youtu.be/ZVnjOPwW4ZA  
-**Focus**: Fundamentals and core concepts of Next.js 13+
+# Ticket 5: [Next.js Tutorial for Beginners - Nextjs 13 (App Router) with TypeScript](https://youtu.be/ZVnjOPwW4ZA "Fundamentals and core concepts of Next.js 13+")
 
 ## Video Learning Curriculum
 
