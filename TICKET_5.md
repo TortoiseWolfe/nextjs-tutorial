@@ -6,14 +6,19 @@
 **Focus**: Fundamentals and core concepts of Next.js 13+
 
 ## Project Setup
+
+### Step 1: Create the Next.js Project
 ```bash
-# Create a new Next.js project with TypeScript and App Router
 npx create-next-app@latest nextjs-tutorial --typescript --tailwind --app
+```
 
-# Navigate into the project
+### Step 2: Navigate to the Project
+```bash
 cd nextjs-tutorial
+```
 
-# Start the development server
+### Step 3: Start the Development Server
+```bash
 npm run dev
 ```
 
@@ -27,25 +32,26 @@ When prompted, select:
 
 ## Video Curriculum Breakdown
 
-### Section 1: Introduction
-- Prerequisites (React knowledge)
-- What is Next.js and why use it
-- Server-side rendering vs Client-side rendering benefits
+### Section 1: Introduction & Prerequisites [0:00:00 - 0:03:16]
+- Course Intro [0:00:00]
+- Prerequisites (React knowledge) [0:02:12]
 
-### Section 2: Project Setup
-- Setting up development environment
-- Creating first Next.js project
-- Understanding project structure
-- App Router architecture
+### Section 2: Next.js Fundamentals [0:03:16 - 0:13:10]
+- Next.js Fundamentals Overview [0:03:16]
+- What is Next.js? [0:03:54]
+- Setting Up the Development Environment [0:06:34]
+- Creating Your First Next.js Project [0:07:59]
+- Project Structure [0:10:21]
 
-### Section 3: Routing & Navigation
+### Section 3: Routing & Navigation [0:13:10 - 0:18:25]
+- Routing and Navigation basics [0:13:10]
 - File-based routing system
 - Creating pages in app directory
-- Dynamic routes with [param]
+- Dynamic routes
 - Link component for navigation
-- Programmatic navigation
 
-### Section 4: Components Architecture
+### Section 4: Components Architecture [0:18:25 - 0:27:19]
+- Client and Server Components [0:18:25]
 ```tsx
 // Server Component (Default - No "use client")
 export default async function ServerComponent() {
@@ -63,17 +69,17 @@ export default function ClientComponent() {
 }
 ```
 
-### Section 5: Data Fetching
-- Server-side data fetching in components
-- Async components
-- Caching strategies
-- Static vs Dynamic rendering
+### Section 5: Data Fetching, Caching & Rendering [0:27:19 - 0:39:56]
+- Data Fetching [0:27:19]
+- Caching [0:33:23]
+- Static and Dynamic Rendering [0:35:48]
 
-### Section 6: Styling Progression
-1. **Global Styles**: Application-wide styling
-2. **CSS Modules**: Component-scoped styles
-3. **Tailwind CSS**: Utility-first approach
-4. **DaisyUI**: Component library on top of Tailwind
+### Section 6: Styling Next.js Applications [0:39:56 - 0:54:56]
+- Styling Overview [0:39:56]
+- Global Styles [0:40:16]
+- CSS Modules [0:42:50]
+- Tailwind CSS [0:47:17]
+- DaisyUI [0:54:56]
 
 ## Key Takeaways from Mosh
 
