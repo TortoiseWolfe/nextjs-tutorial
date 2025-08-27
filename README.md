@@ -6,7 +6,7 @@
 **Repository**: `Tkt_005`
 
 ## 🎫 Ticket 5: Next.js Tutorial for Beginners
-**Video**: [Next.js Tutorial for Beginners - Nextjs 13 (App Router) with TypeScript](https://youtu.be/ZVnjOPwW4ZA)  
+**Video**: <a href="https://youtu.be/ZVnjOPwW4ZA" target="_blank">Next.js Tutorial for Beginners - Nextjs 13 (App Router) with TypeScript</a>  
 **Repository**: `TortoiseWolfe/nextjs-tutorial`  
 **Status**: In Progress
 
@@ -44,7 +44,7 @@
 ---
 
 ## 🎫 Ticket 6: Build Full-Stack Issue Tracker
-**Video**: [Build a Full-Stack App with Next.js, Tailwind, Radix UI, and Prisma](https://youtu.be/J9sfR6HN6BY)  
+**Video**: <a href="https://youtu.be/J9sfR6HN6BY" target="_blank">Build a Full-Stack App with Next.js, Tailwind, Radix UI, and Prisma</a>  
 **Repository**: [To be created after Ticket 5]  
 **Status**: Not Started
 
@@ -165,7 +165,7 @@ For each tool, document:
 - [Course Support Forum](https://forum.codewithmosh.com)
 
 ### Quick References
-- 📺 [React to Next.js in 100 Seconds](https://youtu.be/ZVnjOPwW4ZA) - Quick overview
+- 📺 <a href="https://youtu.be/ZVnjOPwW4ZA" target="_blank">React to Next.js in 100 Seconds</a> - Quick overview
 
 ## 💡 Philosophical Approach
 *"It may get easy to be lost in the tooling terms... Understand what each tool is trying to DO. What functionality they ADD. This will be groundbreaking for both your technical knowledge and thinking."*
