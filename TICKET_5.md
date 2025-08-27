@@ -5,12 +5,25 @@
 **URL**: https://youtu.be/ZVnjOPwW4ZA  
 **Focus**: Fundamentals and core concepts of Next.js 13+
 
-## Repository Setup
+## Project Setup
 ```bash
-git clone https://github.com/TortoiseWolfe/nextjs-tutorial.git
+# Create a new Next.js project with TypeScript and App Router
+npx create-next-app@latest nextjs-tutorial --typescript --tailwind --app
+
+# Navigate into the project
 cd nextjs-tutorial
-npm install
+
+# Start the development server
+npm run dev
 ```
+
+When prompted, select:
+- ✔ Would you like to use TypeScript? → **Yes**
+- ✔ Would you like to use ESLint? → **Yes**
+- ✔ Would you like to use Tailwind CSS? → **Yes**
+- ✔ Would you like to use `src/` directory? → **No**
+- ✔ Would you like to use App Router? → **Yes**
+- ✔ Would you like to customize the default import alias? → **No**
 
 ## Video Curriculum Breakdown
 
