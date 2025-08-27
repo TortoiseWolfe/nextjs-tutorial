@@ -25,6 +25,11 @@ When prompted, select:
 - ✔ Would you like to use App Router? → **Yes**
 - ✔ Would you like to customize the default import alias? → **No**
 
+### Why These Setup Choices?
+- **No `src/` directory**: Keeps file structure flat and simple for teaching. Reduces nesting, makes file paths shorter in explanations, and follows many Next.js examples. Perfect for small learning projects.
+- **No Tailwind initially**: Teaches styling progressively - starts with CSS Modules, then adds Tailwind later to show the evolution
+- **TypeScript Yes**: Industry standard, catches errors early, better learning experience
+
 ### Step 2: Navigate to the Project
 ```bash
 cd next-app
@@ -176,7 +181,14 @@ export default function ClientComponent() {
 - [ ] Tailwind CSS
 - [ ] DaisyUI
 
-## Notes Section
+## Learning Notes & Insights
+*Document observations and "why" explanations as you watch*
+
+### Teaching Choices Explained
+- [x] **Why no src directory**: Keeps tutorial simple, reduces file nesting, shorter paths in demonstrations
+- [ ] **When to use server vs client components**: (Document as you learn)
+- [ ] **Performance implications**: (Note differences as demonstrated)
+- [ ] **File organization patterns**: (Observe how Mosh structures the app)
 
 ### Personal Learning Notes
 <!-- Add your own notes here as you work through the video -->
