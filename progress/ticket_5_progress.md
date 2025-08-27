@@ -15,7 +15,13 @@
 - [ ] Prerequisites check
 - [ ] What is Next.js?
 - [ ] Why use Next.js?
-- **Notes**: 
+- **Learning Journal**: [section_1_learning_journal.md](./section_1_learning_journal.md)
+- **Branch**: `ticket-5/section-1-introduction`
+- **Status**: Ready to Start
+- **Pre-Watch Questions**:
+  - What do I think SSR means?
+  - How might Next.js differ from React?
+  - What problems does it solve? 
 
 ### Getting Started (20 min) 📝
 - [ ] Installing Next.js
@@ -188,11 +194,27 @@ Before moving to Ticket 6, ensure you can:
 
 ## Time Tracking
 
-| Date | Duration | Section Covered | Progress |
-|------|----------|-----------------|----------|
-| | | | |
+| Date | Duration | Section Covered | Branch | Progress | Teaching Ready? |
+|------|----------|-----------------|--------|----------|-----------------|
+| | | | | | |
 
 **Total Time Invested**: 0 hours
+
+## Learning Methodology Tracker
+
+### Active Learning Techniques Used
+- [ ] Paused for note-taking
+- [ ] Wrote in own words
+- [ ] Created analogies
+- [ ] Asked questions
+- [ ] Made predictions
+
+### Synthesis Activities Completed
+- [ ] Created concept diagrams
+- [ ] Explained to rubber duck
+- [ ] Recorded explanation
+- [ ] Made connections to prior knowledge
+- [ ] Identified real-world applications
 
 ---
 

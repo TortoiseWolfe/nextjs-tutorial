@@ -5,10 +5,57 @@
 **Current Ticket**: 5  
 **Repository**: `Tkt_005`
 
+## 🌳 Git Workflow - Breaking the Main Branch Habit
+
+### Branch Naming Convention
+```bash
+# For learning sections
+ticket-5/section-{number}-{topic}
+ticket-5/exercise-{number}
+
+# For features (Ticket 6)
+ticket-6/feature-{name}
+ticket-6/bugfix-{issue}
+```
+
+### Current Branch Strategy
+```bash
+# Start new section
+git checkout -b ticket-5/section-1-introduction
+
+# Make changes and commit regularly
+git add .
+git commit -m "Section 1: Understanding SSR concepts"
+
+# Push to remote when ready
+git push -u origin ticket-5/section-1-introduction
+
+# Create PR for review and merge to main
+```
+
+### Active Branches
+- `main` - Stable, reviewed content
+- `ticket-5/section-1-introduction` - Currently working (YOU ARE HERE)
+
+### Quick Terminal Commands
+```bash
+# Essential commands for parallel terminal
+git checkout ticket-5/section-1-introduction  # Switch to learning branch
+git branch --show-current                      # Verify you're on right branch
+git status                                      # Check what's changed
+git add . && git commit -m "Section 1: [topic]" # Save your progress
+git push                                        # Backup to remote
+```
+
+📋 **Full Git Workflow Guide**: [git_workflow.md](./git_workflow.md)
+
+---
+
 ## 🎫 Ticket 5: Next.js Tutorial for Beginners
 **Video**: <a href="https://youtu.be/ZVnjOPwW4ZA" target="_blank">Next.js Tutorial for Beginners - Nextjs 13 (App Router) with TypeScript</a>  
 **Repository**: `TortoiseWolfe/nextjs-tutorial`  
-**Status**: In Progress
+**Status**: In Progress  
+**Current Branch**: `ticket-5/section-1-introduction`
 
 ### Video Curriculum Progress
 - [ ] **Introduction & Prerequisites**
