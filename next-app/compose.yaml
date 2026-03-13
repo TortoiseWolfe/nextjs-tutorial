@@ -1,0 +1,12 @@
+services:
+  app:
+    build:
+      context: .
+      target: dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app:delegated
+      - /app/node_modules
+    environment:
+      - WATCHPACK_POLLING=true
